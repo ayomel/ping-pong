@@ -56,7 +56,7 @@ Paddle.prototype.reset = function () {
 };
 
 function Player(context) {
-    this.paddle = new Paddle(782, 237.5, 8, 700, 10, context);
+    this.paddle = new Paddle(782, 237.5, 8, 70, 10, context);
     this.paddle.leadingEdge = this.paddle.xPosition;
     this.paddle.backEdge = this.paddle.xPosition + this.paddle.width;
     this.score = 0;
